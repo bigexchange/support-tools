@@ -21,6 +21,12 @@ This script simplifies the process of gathering logs for BigID in a Kubernetes e
 
 - `kubectl`: Ensure that you have `kubectl` properly configured and accessible in your terminal environment.
 
+To quickly execute the script, run the following command:
+
+```bash
+bash <(curl -s https://raw.githubusercontent.com/bigexchange/support-tools/main/scripts/bigid_log_gather.sh)
+```
+
 ## Compatibility
 
 This script is compatible with any Linux or macOS system where `bash` is available.
